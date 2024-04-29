@@ -15,7 +15,7 @@ jobs:
         operating-system:
           - "windows-latest"
         extensions:
-          - amqp,apcu,bcmath,bz2,calendar,ctype,curl,dba,dom,event,exif,ffi,fileinfo,filter,ftp,gd,gettext,gmp,iconv,igbinary,imagick,imap,inotify,intl,ldap,mbregex,mbstring,memcache,memcached,mongodb,mysqli,mysqlnd,opcache,openssl,password-argon2,pcntl,pdo,pdo_mysql,pdo_pgsql,pdo_sqlite,pdo_sqlsrv,pgsql,phar,posix,protobuf,rar,readline,redis,session,shmop,simplexml,sockets,sodium,sqlite3,sqlsrv,ssh2,swoole,swoole-hook-mysql,swoole-hook-pgsql,swoole-hook-sqlite,sysvmsg,sysvsem,sysvshm,tidy,tokenizer,uuid,xhprof,xlswriter,xml,xmlreader,xmlwriter,xsl,yaml,zip,zlib,zstd
+          - apcu,bcmath,calendar,ctype,curl,dba,dom,exif,ffi,fileinfo,filter,ftp,iconv,mbregex,mbstring,mysqli,mysqlnd,opcache,openssl,pdo,pdo_mysql,pdo_sqlite,phar,session,shmop,simplexml,soap,sockets,sqlite3,ssh2,sysvshm,tokenizer,xml,xmlreader,xmlwriter,zlib
     
     steps:
       - name: "OS type"
